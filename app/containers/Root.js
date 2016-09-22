@@ -25,7 +25,7 @@ class Root extends Component {
           {head.link.toComponent()}
         </head>
         <body>
-          <div id='root' dangerouslySetInnerHTML={{__html: this.props.content}} />
+          <div id='root' dangerouslySetInnerHTML={{__html: this.props.content}}/>
           {this.renderEnvironment()}
           {this.renderInitialState()}
           {head.script.toComponent()}

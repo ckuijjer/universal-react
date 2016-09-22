@@ -15,11 +15,6 @@ class App extends Component {
             {'name': 'description', 'content': 'My super dooper dope app'}
           ]}
         />
-        <nav>
-          <ul>
-            <li><Link to='/'>Users</Link></li>
-          </ul>
-        </nav>
         {this.props.children}
       </div>
     );
